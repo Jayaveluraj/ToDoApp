@@ -22,6 +22,7 @@
 		DE1B5B8720517557005ADD23 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B5B8620517557005ADD23 /* DetailView.swift */; };
 		DE1B5B8A205175D7005ADD23 /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B5B89205175D7005ADD23 /* CustomTableCell.swift */; };
 		DE1B5B8C205182F3005ADD23 /* CustomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1B5B8B205182F3005ADD23 /* CustomTableCell.xib */; };
+		DE87F11B2058E685005558B0 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE87F11A2058E66A005558B0 /* FirebaseManager.swift */; };
 		DEBE241F2056F3DB0060D1A8 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBE241A2056F3AB0060D1A8 /* Roboto-Black.ttf */; };
 		DEBE24202056F3DB0060D1A8 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBE24192056F3A90060D1A8 /* Roboto-BlackItalic.ttf */; };
 		DEBE24212056F3DB0060D1A8 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBE241C2056F3B10060D1A8 /* Roboto-Bold.ttf */; };
@@ -56,6 +57,7 @@
 		DE1B5B8620517557005ADD23 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		DE1B5B89205175D7005ADD23 /* CustomTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
 		DE1B5B8B205182F3005ADD23 /* CustomTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableCell.xib; sourceTree = "<group>"; };
+		DE87F11A2058E66A005558B0 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		DEBE24132056F3990060D1A8 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		DEBE24142056F39B0060D1A8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		DEBE24152056F39E0060D1A8 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		DE1B5B66205172B5005ADD23 /* ToDoSample */ = {
 			isa = PBXGroup;
 			children = (
+				DE87F1192058E66A005558B0 /* DataBaseManager */,
 				DEBE24122056F37C0060D1A8 /* Resources */,
 				DE0877892056C28D00648974 /* CustomHeader */,
 				DE05D71720525DFE007579B6 /* GoogleService-Info.plist */,
@@ -210,6 +213,14 @@
 				DE1B5B8B205182F3005ADD23 /* CustomTableCell.xib */,
 			);
 			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		DE87F1192058E66A005558B0 /* DataBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				DE87F11A2058E66A005558B0 /* FirebaseManager.swift */,
+			);
+			path = DataBaseManager;
 			sourceTree = "<group>";
 		};
 		DEBE24122056F37C0060D1A8 /* Resources */ = {
@@ -384,6 +395,7 @@
 				DE1B5B7F20517493005ADD23 /* ToDoListView.swift in Sources */,
 				DE08778D2056C39400648974 /* CustomHeader.swift in Sources */,
 				DE1B5B7B20517408005ADD23 /* TodoListViewController.swift in Sources */,
+				DE87F11B2058E685005558B0 /* FirebaseManager.swift in Sources */,
 				DE1B5B852051751C005ADD23 /* DetailViewController.swift in Sources */,
 				DE1B5B8720517557005ADD23 /* DetailView.swift in Sources */,
 				DE05D716205252C0007579B6 /* Item.swift in Sources */,
